@@ -4,7 +4,7 @@
         <title>LeDawson family</title>
         <style>
             body {
-                background-color: black;
+                background-color: white;
                 margin: 0;
                 width: 100vw;
                 height: 100vh;
@@ -17,13 +17,28 @@
             }
             
             .center h1 {
-                color: white;
+                color: darkgray;
                 font-family: sans-serif;
                 text-align: center;
                 margin: 0;
                 -ms-transform: translate(-50%, -50%);
                 transform: translate(-50%, -50%);
             }
+
+            @media (prefers-color-scheme: dark) {
+                body {
+                    background: black;
+                }
+                h1 {
+                    color: lightgray;
+                    font-family: sans-serif;
+                    text-align: center;
+                    margin: 0;
+                    -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                }
+            }
+
             </style>
     </head>
     <body>
